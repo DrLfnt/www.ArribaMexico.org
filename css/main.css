@@ -1,0 +1,175 @@
+@font-face {
+	font-family: "Avenir LT 35 Light";
+	src: url(../fonts/Avenir-LT-35-Light.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Avenir LT 35 Light Oblique";
+	src: url(../fonts/Avenir-LT-35-Light-Oblique.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Avenir LT 45 Book";
+	src: url(../fonts/Avenir-LT-45-Book.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Avenir LT 45 Book Oblique";
+	src: url(../fonts/Avenir-LT-45-Book-Oblique.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Avenir LT 55 Roman";
+	src: url(../fonts/Avenir-LT-55-Roman.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Avenir LT 55 Oblique";
+	src: url(../fonts/Avenir-LT-55-Oblique.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Avenir LT 65 Medium";
+	src: url(../fonts/Avenir-LT-65-Medium.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Avenir LT 65 Medium Oblique";
+	src: url(../fonts/Avenir-LT-65-Medium-Oblique.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Avenir LT 85 Heavy";
+	src: url(../fonts/Avenir-LT-85-Heavy.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Avenir LT 86 Heavy Oblique";
+	src: url(../fonts/Avenir-LT-86-Heavy-Oblique.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Avenir LT 95 Black";
+	src: url(../fonts/Avenir-LT-95-Black.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Avenir LT 95 Black Oblique";
+	src: url(../fonts/Avenir-LT-95-Black-Oblique.ttf) format("truetype");
+}
+.avenir-light {font-family: 'Avenir LT 35 Light'}
+.avenir-light-oblique {font-family: 'Avenir LT 35 Light Oblique'}
+.avenir-book {font-family: 'Avenir LT 45 Book'}
+.avenir-book-oblique {font-family: 'Avenir LT 45 Book Oblique'}
+.avenir-roman {font-family: 'Avenir LT 55 Roman'}
+.avenir-oblique {font-family: 'Avenir LT 55 Oblique'}
+.avenir-medium {font-family: 'Avenir LT 65 Medium'}
+.avenir-medium-oblique {font-family: 'Avenir LT 65 Medium Oblique'}
+.avenir-heavy {font-family: 'Avenir LT 85 Heavy'}
+.avenir-heavy-oblique {font-family: 'Avenir LT 86 Heavy Oblique'}
+.avenir-black {font-family: 'Avenir LT 95 Black'}
+.avenir-black-oblique {font-family: 'Avenir LT 95 Black Oblique'}
+.zoom { transition: all .2s ease-in-out; }
+.zoom:hover { transform: scale(1.1); }
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+#scroll-bar::-webkit-scrollbar-track { background-color: transparent; }
+#scroll-bar::-webkit-scrollbar { width: 0px; background-color: transparent; }
+#scroll-bar::-webkit-scrollbar-thumb { border-radius: 0px; background-color: transparent; }
+hr {
+	border: 1px dashed #679FA5;
+	border-style: none none dashed; 
+	color: #fff; 
+	background-color: #fff;
+}
+.btn-lang {
+	margin-top: 15px;
+}
+.logo-z {
+	z-index: 10000;
+}
+.pleca-logo {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.p-arriba-mexico {
+	line-height: 2.0;
+}
+.p-reserva {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.p-donativo-monto {
+	text-transform: uppercase;
+	margin-top: 15px;
+	line-height: 1.2;
+}
+.p-donativo{
+	font-size: 20px;
+}
+.p-monto {
+	font-size: 25px;
+}
+a {
+	color: #85b3b8;
+}
+a:hover {
+	color: #698E92;
+	text-decoration: none;
+}
+a.white {
+	color: #FFFFFF;
+}
+a:hover.white {
+	text-decoration: underline;
+}
+.margin-footer {
+	margin-top: 20px;
+}
+.separador-logos {
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #85b3b8;
+}
+.container {
+	width: auto;
+	max-width: 680px;
+	padding: 0 15px;
+}
+.container .text-muted {
+	margin: 20px 0;
+}
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5 {
+	min-height: 1px;
+	position: relative;
+}
+.col-xs-5 {
+	float: left;
+	width: 20%;
+}
+@media (min-width: 768px) {
+	.col-sm-5 {
+		float: left;
+		width: 20%;
+	}
+}
+@media (min-width: 992px) {
+	.col-md-5 {
+		float: left;
+		width: 20%;
+	}
+}
+@media (min-width: 1200px) {
+	.col-lg-5 {
+		float: left;
+		width: 20%;
+	}
+}
+.img-responsive {
+	margin: 0 auto;
+}
