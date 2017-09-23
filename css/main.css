@@ -68,6 +68,9 @@ body {
 	/* Margin bottom by footer height */
 	margin-bottom: 60px;
 }
+.logo {
+	padding-top: 8%;
+}
 #scroll-bar::-webkit-scrollbar-track { background-color: transparent; }
 #scroll-bar::-webkit-scrollbar { width: 0px; background-color: transparent; }
 #scroll-bar::-webkit-scrollbar-thumb { border-radius: 0px; background-color: transparent; }
